@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Website Files - Liscot Global Concept</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="font-sans antialiased bg-gray-50">
+    <div class="min-h-screen flex flex-col">
+        <!-- Navigation (same as main site) -->
+        <nav class="bg-white shadow-lg sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between">
+                    <div class="flex space-x-7">
+                        <div class="md:w-1/4">
+                            <a href="index.html" class="flex items-center py-4 px-2">
+                                <span class="font-semibold text-gray-900 text-2xl">Liscot <span class="text-blue-500">Global</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="index.html" class="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300">Home</a>
+                        <a href="index.html#services" class="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300">Services</a>
+                        <a href="index.html#about" class="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300">About</a>
+                        <a href="download.html" class="py-4 px-2 text-blue-500 font-semibold border-b-2 border-blue-500">Download</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-grow container mx-auto px-6 py-12">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8">
+                <div class="text-center mb-10">
+                    <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Download Website Files</h1>
+                    <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Get the complete source code for the Liscot Global Concept website</p>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Option 1: Direct Download -->
+                    <div class="border rounded-lg p-6 hover:shadow-lg transition duration-300">
+                        <h2 class="text-xl font-bold text-gray-800 mb-3">Complete Website Package</h2>
+                        <p class="text-gray-600 mb-4">Download the complete website as a ZIP file containing all HTML, CSS, JavaScript, and assets.</p>
+                        <a href="liscot-global-website.zip" download class="inline-block bg-blue-500 text-white font-bold py-2 px-6 rounded hover:bg-blue-600 transition duration-300">
+                            <i data-feather="download" class="inline-block mr-2"></i> Download ZIP
+                        </a>
+                    </div>
+
+                    <!-- Option 2: GitHub -->
+                    <div class="border rounded-lg p-6 hover:shadow-lg transition duration-300">
+                        <h2 class="text-xl font-bold text-gray-800 mb-3">GitHub Repository</h2>
+                        <p class="text-gray-600 mb-4">Clone or fork the repository to get the latest version and contribute to development.</p>
+                        <a href="https://github.com/yourusername/liscot-global" target="_blank" class="inline-block bg-gray-800 text-white font-bold py-2 px-6 rounded hover:bg-gray-700 transition duration-300">
+                            <i data-feather="github" class="inline-block mr-2"></i> View on GitHub
+                        </a>
+                    </div>
+
+                    <!-- File Structure -->
+                    <div class="border rounded-lg p-6">
+                        <h2 class="text-xl font-bold text-gray-800 mb-4">File Structure</h2>
+                        <div class="bg-gray-100 p-4 rounded-lg font-mono text-sm">
+                            <p class="text-gray-800 mb-2">liscot-global-website/</p>
+                            <ul class="ml-5 space-y-1">
+                                <li>├── index.html - Main website page</li>
+                                <li>├── download.html - This download page</li>
+                                <li>├── assets/</li>
+                                <li>│   ├── css/ - Stylesheets</li>
+                                <li>│   ├── js/ - JavaScript files</li>
+                                <li>│   ├── img/ - Website images</li>
+                                <li>├── static/</li>
+                                <li>│   ├── favicon.ico - Website icon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer (same as main site) -->
+        <footer class="bg-gray-900 text-white py-12">
+            <div class="container mx-auto px-8 max-w-7xl">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Liscot Global Concept</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Your trusted partner for comprehensive business solutions.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold mb-4">Quick Links</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                            <li><a href="download.html" class="text-gray-400 hover:text-white transition duration-300">Download</a></li>
+                            <li><a href="index.html#book" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                    <p>&copy; 2023 Liscot Global Concept. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
